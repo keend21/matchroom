@@ -24,11 +24,6 @@ Este repositorio contiene el **avance de implementación de la Landing Page** de
 
 | Integrante | Código |
 |------------|--------|
-| Ramos Lirion, Patrick André | U202212992 |
-| Cervantes Rafael, Diego Alonso | U202320769 |
-| Huarancca Evangelista, Duval Paul | U202413185 |
-| Rios Cespedes, Luis Eduardo | U20181D723 |
-| Jara Mori, James Axel | U202516643 |
 | Sinche Pascual, Fernando Kenedy | U20231E972 |
 
 ---
