@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habita — El cuarto que buscabas ya existe</title>
+  <meta name="description" content="Habita conecta inquilinos y propietarios en Lima con habitaciones verificadas, contratos digitales con garantía en custodia y matching de roomies por compatibilidad.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/images/icon-180.png">
+
+  <!-- Open Graph (vista previa al compartir) -->
+  <meta property="og:title" content="Habita — El cuarto que buscabas ya existe">
+  <meta property="og:description" content="Habitaciones verificadas y contratos seguros para alquilar en Lima.">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (iconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Hoja de estilos del proyecto -->
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="#top">
+        <span class="mark"><i class="fa-solid fa-house"></i></span>
+        <span class="word">HABITA</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#como">Cómo funciona</a>
+        <a href="#roomie">Roomie</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#seguridad">Seguridad</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="nav-login" href="#descargar">Iniciar sesión</a>
+        <a class="btn btn-primary" href="#descargar" style="padding:11px 20px;font-size:14px">Descargar app</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <span class="badge"><span class="d"></span>Lima · 240+ habitaciones disponibles</span>
+        <h1 class="serif">El cuarto<br>que <span class="ital">buscabas</span><br>ya existe.</h1>
+        <p class="lead">Encuentra habitaciones verificadas, firma contratos digitales con garantía en custodia y conoce a tu roomie ideal — todo en un solo lugar.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#descargar"><i class="fa-solid fa-download"></i> Descargar app</a>
+          <a class="btn btn-ghost" href="#como">Ver cómo funciona</a>
+        </div>
+        <div class="hero-trust">
+          <span class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </span>
+          <b>4.8</b><span>· basado en pruebas con usuarios reales</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="arch"></div>
+        <div class="float-tag ft1">
+          <div class="ic" style="background:var(--green-bg);color:var(--green-tx)"><i class="fa-solid fa-circle-check"></i></div>
+          <div><b>Verificado</b><span>Propietario validado</span></div>
+        </div>
+        <div class="float-tag ft2">
+          <div class="ic" style="background:var(--field);color:var(--caramel)"><i class="fa-solid fa-shield-halved"></i></div>
+          <div><b>Garantía en custodia</b><span>Tu dinero protegido</span></div>
+        </div>
+        <div class="float-tag ft3">
+          <div class="ic" style="background:var(--field);color:var(--caramel)"><i class="fa-solid fa-user-group"></i></div>
+          <div><b>94% compatible</b><span>Tu roomie ideal</span></div>
+        </div>
+
+        <!-- Maqueta del teléfono (HTML + CSS) -->
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="scr-top">
+              <div class="lg"><span class="m"><i class="fa-solid fa-house"></i></span><span>HABITA</span></div>
+              <div class="av">MG</div>
+            </div>
+            <div class="scr-h serif">¿Qué estás<br><em>buscando hoy?</em></div>
+            <div class="scr-search"><i class="fa-solid fa-magnifying-glass"></i> Zona, precio, habitación...<span class="go"><i class="fa-solid fa-arrow-right"></i></span></div>
+            <div class="scr-chips"><span class="on">Todos</span><span class="off">Miraflores</span><span class="off">San Isidro</span><span class="off">Barranco</span></div>
+            <div class="scr-card">
+              <div class="img"><i class="fa-solid fa-door-open"></i><span class="vf">✓ Verificado</span><span class="pr">S/950/mes</span></div>
+              <div class="cap"><b>Habitación amoblada</b><span>Av. Larco 420 · Miraflores</span></div>
+            </div>
+            <div class="scr-roomie"><div class="ic"><i class="fa-solid fa-user-group"></i></div><div><b>Busca Roomie</b><span>Compatibilidad + chat previo</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FRANJA DE ESTADÍSTICAS ============ -->
+  <div class="strip">
+    <div class="wrap strip-in">
+      <div class="stat reveal"><b>240+</b><span>Habitaciones publicadas</span></div>
+      <div class="stat reveal"><b>6</b><span>Distritos de Lima</span></div>
+      <div class="stat reveal"><b>100%</b><span>Contratos con garantía</span></div>
+      <div class="stat reveal"><b>40+</b><span>Perfiles de roomies</span></div>
+    </div>
+  </div>
+
+  <!-- ============ CARACTERÍSTICAS ============ -->
+  <section class="block" id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Por qué Habita</span>
+        <h2 class="serif">Alquilar un cuarto, <span class="ital">sin sustos</span></h2>
+        <p>Reunimos en una sola app todo lo que hace falta para alquilar con confianza en Lima.</p>
+      </div>
+      <div class="feat-grid">
+        <div class="feat reveal">
+          <div class="ic" style="background:var(--green-bg)"><i class="fa-solid fa-circle-check"></i></div>
+          <h3>Habitaciones verificadas</h3>
+          <p>Cada publicación pasa por validación de identidad del propietario y fotos reales. Adiós a los anuncios falsos de los grupos de Facebook.</p>
+        </div>
+        <div class="feat reveal">
+          <div class="ic" style="background:var(--field)"><i class="fa-solid fa-file-contract"></i></div>
+          <h3>Contratos digitales seguros</h3>
+          <p>Firma electrónica del contrato y garantía depositada en custodia. El dinero se libera solo cuando ambas partes cumplen.</p>
+        </div>
+        <div class="feat reveal">
+          <div class="ic" style="background:#DDD5F4"><i class="fa-solid fa-user-group"></i></div>
+          <h3>Roomie matching</h3>
+          <p>Encuentra compañeros de cuarto compatibles por hábitos, zona y presupuesto. Chatea antes de decidir con quién vives.</p>
+        </div>
+        <div class="feat reveal">
+          <div class="ic" style="background:#D0EAF4"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <h3>Servicios del hogar</h3>
+          <p>Lavandería, limpieza, internet y más, integrados en la app para que te mudes y vivas sin complicaciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CÓMO FUNCIONA ============ -->
+  <section class="block how" id="como">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Cómo funciona</span>
+        <h2 class="serif">De la búsqueda a las <span class="ital">llaves</span></h2>
+        <p>Cuatro pasos para pasar de buscar cuarto a tener uno, con todo respaldado.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><div class="num">01</div><h4>Busca y filtra</h4><p>Filtra por distrito, precio y comodidades. Ve resultados en lista o en el mapa.</p></div>
+        <div class="step reveal"><div class="num">02</div><h4>Compara</h4><p>Pon hasta 3 habitaciones lado a lado y revisa fotos, servicios y reseñas.</p></div>
+        <div class="step reveal"><div class="num">03</div><h4>Firma con garantía</h4><p>Contrato digital y garantía en custodia. Todo queda registrado y protegido.</p></div>
+        <div class="step reveal"><div class="num">04</div><h4>Múdate</h4><p>Coordina tu roomie y contrata los servicios del hogar desde la misma app.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROOMIE ============ -->
+  <section class="block" id="roomie">
+    <div class="wrap split">
+      <div class="copy reveal">
+        <span class="eyebrow">Roomie matching</span>
+        <h2 class="serif">Encuentra a la persona <span class="ital">indicada</span> para compartir</h2>
+        <p>Compartir cuarto no debería ser una lotería. Habita calcula la compatibilidad según tus hábitos, tu zona y tu presupuesto, y te deja conversar antes de comprometerte.</p>
+        <ul class="ulist">
+          <li><span class="chk"><i class="fa-solid fa-check"></i></span>Compatibilidad calculada por hábitos y estilo de vida</li>
+          <li><span class="chk"><i class="fa-solid fa-check"></i></span>Perfiles verificados para evitar sorpresas</li>
+          <li><span class="chk"><i class="fa-solid fa-check"></i></span>Chat previo para coordinar visita y reglas de convivencia</li>
+        </ul>
+      </div>
+      <div class="match-card reveal">
+        <div class="mc-row">
+          <div class="mc-av" style="background:#C9966A">VR<span class="dot"></span></div>
+          <div class="mc-i"><b>Valentina R.</b><span>Busca cuarto · Miraflores · S/800–1,000</span></div>
+          <div class="mc-pct"><b>94%</b><span>Match</span></div>
+        </div>
+        <div class="mc-row">
+          <div class="mc-av" style="background:#9EB5B8">DM</div>
+          <div class="mc-i"><b>Diego M.</b><span>Subarriendo · San Isidro · S/900–1,200</span></div>
+          <div class="mc-pct"><b>87%</b><span>Match</span></div>
+        </div>
+        <div class="mc-row">
+          <div class="mc-av" style="background:#A8B89E">CF<span class="dot"></span></div>
+          <div class="mc-i"><b>Camila F.</b><span>Busca cuarto · Barranco · S/650–850</span></div>
+          <div class="mc-pct"><b>81%</b><span>Match</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS ============ -->
+  <section class="block how" id="servicios">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Servicios del hogar</span>
+        <h2 class="serif">Todo lo de tu cuarto, en <span class="ital">un toque</span></h2>
+        <p>Contrata servicios verificados directamente desde la app, con precios claros desde el inicio.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc reveal"><div class="ic" style="background:#EDD5B0"><i class="fa-solid fa-soap"></i></div><b>Lavandería</b><p>Recojo y entrega 24h</p><span class="tag" style="background:#EDD5B0">Desde S/5/kg</span></div>
+        <div class="svc reveal"><div class="ic" style="background:#D4ECD4"><i class="fa-solid fa-broom"></i></div><b>Limpieza</b><p>Compartida o por hora</p><span class="tag" style="background:#D4ECD4">Desde S/40/h</span></div>
+        <div class="svc reveal"><div class="ic" style="background:#FAE5BF"><i class="fa-solid fa-screwdriver-wrench"></i></div><b>Reparaciones</b><p>Gasfitería y electricidad</p><span class="tag" style="background:#FAE5BF">Desde S/60</span></div>
+        <div class="svc reveal"><div class="ic" style="background:#F4D0D0"><i class="fa-solid fa-truck"></i></div><b>Mudanzas</b><p>Traslado seguro y rápido</p><span class="tag" style="background:#F4D0D0">Desde S/80</span></div>
+        <div class="svc reveal"><div class="ic" style="background:#DDD5F4"><i class="fa-solid fa-shield-halved"></i></div><b>Seguro hogar</b><p>Cobertura mensual flexible</p><span class="tag" style="background:#DDD5F4">Desde S/35/mes</span></div>
+        <div class="svc reveal"><div class="ic" style="background:#D0EAF4"><i class="fa-solid fa-wifi"></i></div><b>Internet</b><p>Instalación y soporte</p><span class="tag" style="background:#D0EAF4">Desde S/89/mes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEGURIDAD ============ -->
+  <section class="block" id="seguridad">
+    <div class="wrap">
+      <div class="secure reveal">
+        <div class="secure-grid">
+          <div>
+            <span class="eyebrow" style="color:#E9C38C">Confianza primero</span>
+            <h2 class="serif">Tu dinero y tus datos, <span class="ital">protegidos</span></h2>
+            <p>Construimos Habita para que alquilar en Lima deje de dar miedo. Cada transacción está respaldada y cada perfil, verificado.</p>
+          </div>
+          <div class="secure-cards">
+            <div class="sc"><div class="ic"><i class="fa-solid fa-shield-halved"></i></div><div><b>Garantía en custodia</b><span>El depósito se retiene en una cuenta segura y se libera solo al cumplirse el contrato.</span></div></div>
+            <div class="sc"><div class="ic"><i class="fa-solid fa-circle-check"></i></div><div><b>Perfiles verificados</b><span>Validamos la identidad de propietarios e inquilinos antes de cualquier acuerdo.</span></div></div>
+            <div class="sc"><div class="ic"><i class="fa-solid fa-file-contract"></i></div><div><b>Contrato con respaldo legal</b><span>Firma digital con registro de versiones y condiciones claras para ambas partes.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIO ============ -->
+  <section class="block">
+    <div class="wrap quote reveal">
+      <div class="qm">"</div>
+      <blockquote>La garantía en custodia me dio la confianza para firmar sin miedo. Encontré cuarto y roomie en la misma semana.</blockquote>
+      <div class="who">
+        <div class="av">MF</div>
+        <div><b>María Fernanda Q.</b><span>Inquilina · Pueblo Libre</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DESCARGA ============ -->
+  <section class="block download" id="descargar">
+    <div class="wrap">
+      <div class="dl-arch reveal">
+        <div class="mark"><i class="fa-solid fa-house"></i></div>
+        <h2 class="serif">Tu próximo cuarto<br>te está <span class="ital">esperando</span></h2>
+        <p>Descarga Habita y empieza a buscar con confianza hoy mismo.</p>
+        <div class="store-row">
+          <a class="store" href="#"><i class="fa-brands fa-apple"></i><span class="t"><small>Descárgalo en el</small><b>App Store</b></span></a>
+          <a class="store" href="#"><i class="fa-brands fa-google-play"></i><span class="t"><small>Disponible en</small><b>Google Play</b></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PIE DE PÁGINA ============ -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <div class="brand"><span class="mark"><i class="fa-solid fa-house"></i></span><span class="word">HABITA</span></div>
+          <p>Habitaciones verificadas y contratos seguros para alquilar en Lima sin sustos.</p>
+        </div>
+        <div class="foot-col"><h5>Producto</h5><a href="#como">Cómo funciona</a><a href="#roomie">Roomie matching</a><a href="#servicios">Servicios</a><a href="#seguridad">Seguridad</a></div>
+        <div class="foot-col"><h5>Empresa</h5><a href="#">Sobre nosotros</a><a href="#">Para propietarios</a><a href="#">Contacto</a><a href="#">Trabaja con nosotros</a></div>
+        <div class="foot-col"><h5>Legal</h5><a href="#">Términos</a><a href="#">Privacidad</a><a href="#">Garantía en custodia</a></div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2025 Habita. Proyecto académico — UPC.</span>
+        <span>Hecho en Lima, Perú.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Script del proyecto -->
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
